@@ -1,0 +1,36 @@
+"setup.title" = "App Store Connect 设置";
+"setup.description" = "连接 App Store Connect API Key 以解锁数据。";
+"setup.privacy" = "密钥仅保存在本机，并安全存储在钥匙串中。";
+"setup.delay" = "App Store Connect 数据存在 T+1 / T+2 延迟，非实时。";
+"setup.help.link" = "如何创建 App Store Connect API Key";
+"setup.credentials.section" = "凭据";
+"setup.issuerId.placeholder" = "Issuer ID";
+"setup.keyId.placeholder" = "Key ID";
+"setup.privateKey.label" = "Private Key（.p8 内容）";
+"setup.privateKey.placeholder" = "在此粘贴 .p8 文件内容";
+"setup.verify.button" = "验证并连接";
+"setup.verify.loading" = "正在验证…";
+
+"error.missingFields" = "请填写所有字段后再验证。";
+"error.verifyFailed" = "无法验证凭据，请检查后重试。";
+"error.saveFailed" = "无法保存凭据，请重试。";
+
+"dashboard.title" = "仪表盘";
+"dashboard.placeholder" = "仪表盘即将上线。";
+
+"settings.title" = "设置";
+"settings.language.section" = "语言";
+"settings.language.title" = "应用语言";
+"settings.language.english" = "English";
+"settings.language.simplifiedChinese" = "简体中文";
+"settings.appearance.section" = "外观";
+"settings.appearance.title" = "外观";
+"settings.appearance.system" = "跟随系统";
+"settings.appearance.light" = "浅色";
+"settings.appearance.dark" = "深色";
+"settings.credentials.section" = "App Store Connect";
+"settings.credentials.remove" = "移除 App Store Connect 凭据";
+"settings.credentials.remove.confirmTitle" = "确认移除凭据？";
+"settings.credentials.remove.confirmMessage" = "移除后将重置应用并清除凭据。";
+"settings.credentials.remove.confirm" = "移除";
+"settings.credentials.remove.cancel" = "取消";

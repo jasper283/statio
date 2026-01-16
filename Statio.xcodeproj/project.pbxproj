@@ -4,7 +4,11 @@
 	classes = {
 	};
 	objectVersion = 77;
-	objects = {
+objects = {
+
+/* Begin PBXBuildFile section */
+		A4B1A88E2F1A47A0003CA88C /* AppStoreConnect in Frameworks */ = {isa = PBXBuildFile; productRef = A4B1A88F2F1A47A0003CA88C /* AppStoreConnect */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A4B1A8802F1A456C003CA88C /* Statio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Statio.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4B1A88E2F1A47A0003CA88C /* AppStoreConnect in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = Statio;
 			packageProductDependencies = (
+				A4B1A88F2F1A47A0003CA88C /* AppStoreConnect */,
 			);
 			productName = Statio;
 			productReference = A4B1A8802F1A456C003CA88C /* Statio.app */;
@@ -91,9 +97,13 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = A4B1A8772F1A456C003CA88C;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A4B1A8902F1A47A0003CA88C /* XCRemoteSwiftPackageReference "appstoreconnect-swift-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A4B1A8812F1A456C003CA88C /* Products */;
 			projectDirPath = "";
@@ -101,8 +111,27 @@
 			targets = (
 				A4B1A87F2F1A456C003CA88C /* Statio */,
 			);
-		};
+	};
 /* End PBXProject section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A4B1A8902F1A47A0003CA88C /* XCRemoteSwiftPackageReference "appstoreconnect-swift-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AvdLee/appstoreconnect-swift-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A4B1A88F2F1A47A0003CA88C /* AppStoreConnect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4B1A8902F1A47A0003CA88C /* XCRemoteSwiftPackageReference "appstoreconnect-swift-sdk" */;
+			productName = AppStoreConnect;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A4B1A87E2F1A456C003CA88C /* Resources */ = {
