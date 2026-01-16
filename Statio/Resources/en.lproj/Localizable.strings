@@ -1,0 +1,36 @@
+"setup.title" = "App Store Connect Setup";
+"setup.description" = "Connect your App Store Connect API key to unlock metrics.";
+"setup.privacy" = "Your key stays on this device and is stored securely in the Keychain.";
+"setup.delay" = "App Store Connect data updates with a T+1 / T+2 delay, not real-time.";
+"setup.help.link" = "How to create an App Store Connect API key";
+"setup.credentials.section" = "Credentials";
+"setup.issuerId.placeholder" = "Issuer ID";
+"setup.keyId.placeholder" = "Key ID";
+"setup.privateKey.label" = "Private Key (.p8 content)";
+"setup.privateKey.placeholder" = "Paste the .p8 file content here";
+"setup.verify.button" = "Verify & Connect";
+"setup.verify.loading" = "Verifying…";
+
+"error.missingFields" = "Please fill in all fields before verifying.";
+"error.verifyFailed" = "We couldn’t verify these credentials. Check the values and try again.";
+"error.saveFailed" = "We couldn’t save your credentials. Please try again.";
+
+"dashboard.title" = "Dashboard";
+"dashboard.placeholder" = "Dashboard is coming soon.";
+
+"settings.title" = "Settings";
+"settings.language.section" = "Language";
+"settings.language.title" = "App Language";
+"settings.language.english" = "English";
+"settings.language.simplifiedChinese" = "Simplified Chinese";
+"settings.appearance.section" = "Appearance";
+"settings.appearance.title" = "Appearance";
+"settings.appearance.system" = "Follow System";
+"settings.appearance.light" = "Light";
+"settings.appearance.dark" = "Dark";
+"settings.credentials.section" = "App Store Connect";
+"settings.credentials.remove" = "Remove App Store Connect Credentials";
+"settings.credentials.remove.confirmTitle" = "Remove Credentials?";
+"settings.credentials.remove.confirmMessage" = "This will remove your App Store Connect credentials and reset the app.";
+"settings.credentials.remove.confirm" = "Remove";
+"settings.credentials.remove.cancel" = "Cancel";
